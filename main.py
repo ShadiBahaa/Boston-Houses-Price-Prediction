@@ -14,7 +14,7 @@ from Constants import *
 # Retrieving the boston house data as a dataframe from the csv file
 boston_data = pd.read_csv(DATA_SET_FILE)
 
-# A function to know info about the dataset to ensure if they don't contain any null or missing values
+# A function to know info about the dataset to ensure it doesn't contain any null or missing values
 
 
 def discover_data():
